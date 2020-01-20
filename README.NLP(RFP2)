@@ -1,0 +1,22 @@
+AS IT IS IN PDF WE NEED TO EXTRACT IT FIRST FOR THAT :
+from PyPDF2 import PdfFileReader,PdfFileWriter
+import PyPDF2 as pdf
+
+next  we are importing the NLTK toolkit: import nltk.
+
+we proceed with Basics of NLP for Text:
+Sentence Tokenization
+Word Tokenization
+Text Lemmatization and Stemming
+Stop Words
+Regex
+
+FOR GETTING ALL PAGES PRINTED IN PDF WE ADD FOR LOOP:
+ i in range(pdf_reader.getNumPages()):
+    page = pdf_reader.getPage(i)
+    i +=1
+    final+=page.extractText()
+    
+
+and AT LAST  we can do df-idf model or bagging of words or both for better performance.(which assign weights ).
+PLEASE CHECK THE CODE FOR DETAIL UNDERSTANDING.
