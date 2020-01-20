@@ -1,0 +1,14 @@
+HERE WE START WITH DATA PREPROCESSING FOR THAT WE NEED TO DO:
+Loading data from csv files.
+Description of data and visualisation of data.
+Skewness of data is checked and logarithimic transformation is applied to dataset.
+Correlation matrix to view all the relationship between different feautres.
+Scatter plots for viewing the data interaction.
+removing null values 
+Splitting into training and validation datsets.
+Modelling
+Using Mean Average Error  to select the best technique among popular techniques.
+Testing various algorithms and choosing the one with least Mean Average Error 
+here I  checked  linear regression and XGBoost, i find out that XGB BOOST MODEL WITH LEAST MEAN AVERAGE ERROR
+SO I concluded that ,These perform the best on these dataset.
+For complete analysis of data,please refer the ipython notebook.
